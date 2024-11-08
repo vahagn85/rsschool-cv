@@ -48,3 +48,17 @@ export default function promiseAll(iterable) {
   });
 }
 ```
+
+## Education
+
+- **University:** YSU - Mathematics and Mechanic
+- **Courses**:
+  - [FreeCodeCamp](https://www.freecodecamp.org/)
+  - [coursera](https://www.coursera.org/)
+  - [codecademy](https://www.codecademy.com/)
+
+## Languages
+
+- Armenian - Native
+- Russian - Advanced
+- English - Intermediate
