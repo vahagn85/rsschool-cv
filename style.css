@@ -71,3 +71,19 @@ li:before {
 .block {
 	margin: 25px 30px;
 }
+
+.main_container {
+	width: 960px;
+    margin: 20px auto;
+		padding: 12px;
+    background: #fff;
+    box-shadow: 0 0 9px 2px #ccc;
+    border-radius: 5px;
+}
+.body_container{
+	display: flex;
+}
+.content_container {
+	flex: 1;
+	border-left: 1px solid #403F44;
+}
