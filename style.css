@@ -189,3 +189,22 @@ aside.aside {
 	border-left: 7px solid #00145c;
 	border-radius: 5px;
 }
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px 0;
+	border-top: 1px solid #403F44;
+}
+.footer a {
+	text-decoration: none;
+}
+.footer .github_logo {
+	width: 25px;
+	margin-right: 6px;
+	vertical-align: bottom;
+}
+.footer .rs_school {
+	width: 80px;
+}
