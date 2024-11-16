@@ -168,3 +168,10 @@ aside.aside {
 .aside__contacts p.head_second{
 	margin-top: 25px;
 }
+
+.education li {
+	margin-bottom: 5px;
+}
+.education >ul> li::before{
+	display: none;
+}

@@ -62,7 +62,59 @@
 						</ul>
 					</div>
       	</aside>
-				<main class="content_container">				
+				<main class="content_container">
+					<div class="block">
+          <h2>About Me</h2>
+          <p>I am a conscientious person who works hard and pays attention to details. I am flexible, quick to pick up new skills and eager to learn from others. I also have lots of ideas and enthusiasm.</p>				
+        	</div>
+					<div class="block education">
+						<h2>Education</h2>
+						<ul>
+							<li><b>University:</b> YSU - Mathematics and Mechanic</li>
+							<li><b>Courses:</b>
+								<ul>
+									<li><a href="https://www.freecodecamp.org/" target="_blank">FreeCodeCamp</a></li>
+									<li><a href="https://www.coursera.org/" target="_blank">coursera</a></li>
+									<li><a href="https://www.codecademy.com/" target="_blank">codecademy</a></li>
+									<li><a href="https://rs.school/" target="_blank">RS Schools</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+        <div class="block">
+          <h2>Code Example</h2>
+					<p>The code defines a custom implementation of Promise.all and exports it as a default function.</p>
+					<div class="code_wrapper">
+          <pre>
+export default function promiseAll(iterable) {
+  return new Promise((resolve, reject) => {
+    const results = new Array(iterable.length);
+    let unresolved = iterable.length;
+
+    if (unresolved === 0) {
+      resolve(results);
+      return;
+    }
+
+    iterable.forEach(async (item, index) => {
+      try {
+        const value = await item;
+        results[index] = value;
+        unresolved -= 1;
+
+        if (unresolved === 0) {
+          resolve(results);
+        }
+      } catch (err) {
+        reject(err);
+      }
+    });
+  });
+}
+					</pre>
+					</div>
+        </div>				
 				</main>
 			</div>
       <footer class="footer">
